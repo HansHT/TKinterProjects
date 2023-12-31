@@ -33,8 +33,9 @@ def item_select(_):
     # print(table.selection())
     for i in table.selection():
         print(table.item(i)['values'])
-    # table.item(table.selection())
         
+# exercise
+# Create a function to delete rows in the table
 def delete_items(_):
     print('delete')
     for i in table.selection():
