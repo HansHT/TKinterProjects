@@ -3,7 +3,7 @@ from tkinter import ttk
 
 # Window
 window = tk.Tk()
-window.geometry('600x400+100+200')
+# window.geometry('600x400+100+200')
 window.title('More on the window')
 window.iconbitmap('logos/possum.ico')
 
