@@ -33,9 +33,9 @@ label4.grid(row = 3, column = 3, sticky= 'se')
 # add the buttons and the entry field
 button1.grid(row = 0, column = 3, sticky = 'nsew')
 button2.grid(row = 2, column = 2, sticky = 'nsew',)
-# entry.grid(row = 3, column = 3, sticky = 'n', pady = 30)
+entry.grid(row = 3, column = 3, sticky = 'n', pady = 30)
 # alternate solution
-entry.grid(row = 2, column = 3, rowspan = 2)
+# entry.grid(row = 2, column = 3, rowspan = 2)
 
 # run
 window.mainloop()
